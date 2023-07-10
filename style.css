@@ -45,3 +45,21 @@ a {
     font-size: large;
     font-weight: 700;
 }
+.fail {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.fails h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.fails p{
+    line-height: 28px;
+}
+.fails h1,p,ul {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
