@@ -44,6 +44,8 @@ a {
     color: #005fac;
     font-size: large;
     font-weight: 700;
+    border: none;
+    border-radius: 5px;
 }
 .fail {
     height: 100vh;
@@ -51,8 +53,9 @@ a {
     justify-content: center;
     align-items: center;
     gap: 100px;
+    margin-bottom: 100px;
 }
-.fails h1{
+.primaryH1{
     font-size: 40px;
     font-weight: 700;
 }
@@ -62,4 +65,36 @@ a {
 .fails h1,p,ul {
     margin-top: 25px;
     margin-bottom: 5px;
+}
+.myplanH1 {
+    margin-bottom: 50px;
+}
+.myplans {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    height: 50vh;
+
+}
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.call-box {
+    width: 100vw;
+    display: flex;
+    justify-items: end;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+}
+.box {
+    width: 70%;
+    height: 250px;
+    background-image: url("images/watch.png"),linear-gradient(90deg, rgba(0, 95, 172,1), rgba(0, 95, 172,0.001));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    
 }
